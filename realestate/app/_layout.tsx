@@ -22,6 +22,6 @@ export default function RootLayout() {
     return null;
   }
   {
-    return <Stack />;
+    return <Stack screenOptions={{ headerShown: false }} />;
   }
 }
